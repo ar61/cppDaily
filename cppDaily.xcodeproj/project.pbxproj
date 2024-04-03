@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6CF656C42BB717E3008E656F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CF656C32BB717E3008E656F /* main.cpp */; };
+		6CF656CD2BBE1DBD008E656F /* jsonParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CF656CB2BBE1DBD008E656F /* jsonParser.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		6CF656C02BB717E3008E656F /* cppDaily */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cppDaily; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF656C32BB717E3008E656F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6CF656CB2BBE1DBD008E656F /* jsonParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jsonParser.cpp; sourceTree = "<group>"; };
+		6CF656CC2BBE1DBD008E656F /* jsonParser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = jsonParser.hpp; sourceTree = "<group>"; };
+		6CF656CE2BBE1E91008E656F /* commonTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonTypes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				6CF656C32BB717E3008E656F /* main.cpp */,
+				6CF656CB2BBE1DBD008E656F /* jsonParser.cpp */,
+				6CF656CC2BBE1DBD008E656F /* jsonParser.hpp */,
+				6CF656CE2BBE1E91008E656F /* commonTypes.h */,
 			);
 			path = cppDaily;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF656CD2BBE1DBD008E656F /* jsonParser.cpp in Sources */,
 				6CF656C42BB717E3008E656F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
