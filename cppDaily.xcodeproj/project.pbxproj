@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6CF656C42BB717E3008E656F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CF656C32BB717E3008E656F /* main.cpp */; };
 		6CF656CD2BBE1DBD008E656F /* jsonParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CF656CB2BBE1DBD008E656F /* jsonParser.cpp */; };
+		6CF656D22BBE29B4008E656F /* currencyProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CF656D02BBE29B4008E656F /* currencyProblem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		6CF656CB2BBE1DBD008E656F /* jsonParser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jsonParser.cpp; sourceTree = "<group>"; };
 		6CF656CC2BBE1DBD008E656F /* jsonParser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = jsonParser.hpp; sourceTree = "<group>"; };
 		6CF656CE2BBE1E91008E656F /* commonTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonTypes.h; sourceTree = "<group>"; };
+		6CF656D02BBE29B4008E656F /* currencyProblem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = currencyProblem.cpp; sourceTree = "<group>"; };
+		6CF656D12BBE29B4008E656F /* currencyProblem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = currencyProblem.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,7 @@
 		6CF656B72BB717E3008E656F = {
 			isa = PBXGroup;
 			children = (
+				6CF656CF2BBE2987008E656F /* problems */,
 				6CF656C22BB717E3008E656F /* cppDaily */,
 				6CF656C12BB717E3008E656F /* Products */,
 			);
@@ -67,6 +71,15 @@
 				6CF656CE2BBE1E91008E656F /* commonTypes.h */,
 			);
 			path = cppDaily;
+			sourceTree = "<group>";
+		};
+		6CF656CF2BBE2987008E656F /* problems */ = {
+			isa = PBXGroup;
+			children = (
+				6CF656D02BBE29B4008E656F /* currencyProblem.cpp */,
+				6CF656D12BBE29B4008E656F /* currencyProblem.hpp */,
+			);
+			path = problems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CF656CD2BBE1DBD008E656F /* jsonParser.cpp in Sources */,
+				6CF656D22BBE29B4008E656F /* currencyProblem.cpp in Sources */,
 				6CF656C42BB717E3008E656F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
